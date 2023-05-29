@@ -1,0 +1,11 @@
+.secondaryTitle{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 35rem;
+    opacity: 0.1;
+    position: absolute;
+}
+
+.secondaryTitle:hover{
+    cursor:default;
+}

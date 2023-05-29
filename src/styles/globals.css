@@ -1,4 +1,12 @@
 :root {
+
+  --primary-color: #002A4E;
+  --secondary-color: #00A6AC;
+  --neutral-color: #CCCCCC;
+  --accent-color: #FF715B;
+  --background-color: #FFFFFF;
+
+
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',

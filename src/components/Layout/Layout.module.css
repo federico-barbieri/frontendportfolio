@@ -1,0 +1,41 @@
+.nav{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 1rem;
+    font-family: 'Roboto', sans-serif;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: var(--primary-color);
+    position: fixed;
+    z-index: 100;
+    font-size: 2rem;
+}
+
+.federico{
+    font-weight: 800;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+.ul > li{
+    transition: all 0.5s ease-in;
+
+}
+
+.ul > li:hover{
+    text-decoration: 5px solid var(--secondary-color) underline;
+    cursor: pointer;
+}
