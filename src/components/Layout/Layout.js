@@ -17,10 +17,6 @@ function Layout({children}) {
               <li>PROJECTS</li>
             </Link>
 
-            <Link href="/About" className={styles.ulLink}>
-            <li>ABOUT</li>
-            </Link>
-
             <Link href="/Contact" className={styles.ulLink}>
             <li>CONTACT</li>
             </Link>

@@ -49,7 +49,7 @@
 .secondaryTitleProject{
   font-family: "ohm-bold", sans-serif;
   font-weight: 700;
-  font-size: 35rem;
+  font-size: 30rem;
   opacity: 0.1;
   position: absolute;
 }
@@ -58,108 +58,75 @@
   cursor:default;
 }
 
-.aboutWithTextSection > p{
-  max-width: 43ch;
-  padding: 1rem;
-  border-radius: 10px;
-  line-height: 1.5;
-  margin-left: 10rem;
+
+@media only screen and (max-width: 1300px){
+  
+  
+  .secondaryTitleProject{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 15rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  
 }
 
-.maze{
-  font-weight: 700;
+@media only screen and (max-width: 1000px){
+ 
+  
+  .secondaryTitleProject{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 10rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  
 }
 
-.amazing{
-  font-weight: 700;
+@media only screen and (max-width: 700px){
+ 
+  
+  .secondaryTitleProject{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  
 }
 
-
-
-/* STACK SECTION */
-
-.stackSection{
-  width: 100vw;
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
+@media only screen and (max-width: 500px){
+ 
+  
+  .secondaryTitleProject{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
 }
 
-.stackIcons{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 80%;
-  height: auto;
-  flex-wrap: wrap;
+@media only screen and (max-width: 350px){
+ 
+  
+  .secondaryTitleProject{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
 }
 
-.stackIcon{
-  transform: scale(5);
-  transition: all 0.5s ease-in
-}
-
-.stackIcon:hover{
-  transform: scale(7);
-  cursor: pointer;
-}
-
-.stackWithTextSection{
-  width: 100vw;
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 1rem;
-}
-
-.stackWithTextSection > p{
-  max-width: 43ch;
-  padding: 1rem;
-  border-radius: 10px;
-  line-height: 1.5;
-  margin-right: 10rem;
-  text-align: right;
-}
-
-.internship{
-  font-weight: 700;
-}
-
-.reallyGood{
-  font-weight: 600;
-}
-
-
-/* PROJECTS SECTION */
-
-
-
-
-.projectIcons{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 80%;
-  height: auto;
-  flex-wrap: wrap;
-}
-
-.projectIcon{
-  transform: scale(5);
-  transition: all 0.5s ease-in;
-}
-
-.projectIcon:hover{
-  transform: scale(7);
-  cursor: pointer;
-}
 
 /* CONTACT SECTION */
 
@@ -219,3 +186,224 @@
 .contactIcon{
   transform: scale(5);
 }
+
+@media only screen and (max-width: 1300px){
+  .contactWithTextSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 20rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  .contactWithTextSection > p{
+    max-width: 70ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-left: 0rem;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  
+  .contactSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .contactIconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .contactIcon{
+    transform: scale(4);
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .contactWithTextSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 15rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  .contactWithTextSection > p{
+    max-width: 70ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-left: 0rem;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  
+  .contactSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .contactIconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .contactIcon{
+    transform: scale(3);
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .contactWithTextSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 10rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  .contactWithTextSection > p{
+    max-width: 70ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-left: 0rem;
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  
+  .contactSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .contactIconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .contactIcon{
+    transform: scale(3);
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .contactWithTextSection{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+  .contactWithTextSection > p{
+    max-width: 70ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-left: 0rem;
+    text-align: left;
+    font-size: 1rem;  }
+  
+  .contactSection{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .contactIconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .contactIcon{
+    transform: scale(1);
+  }
+}
+
+
