@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import MainTitle from '@/components/MainTitle/MainTitle'
-import SecondaryTitle from '@/components/SecondaryTitle/SecondaryTitle'
 import {FaReact} from "react-icons/fa"
 import {SiNextdotjs} from "react-icons/si"
 import {AiFillHtml5} from "react-icons/ai"
@@ -76,22 +75,33 @@ export default function Home() {
       
 
         <section className={`${styles.stackSection}`}>
-          <SecondaryTitle
-          title="STACK" />
+          <h2 className={styles.secondaryTitleStack}>STACK</h2>
+       
             <div className={styles.stackIcons}>
-              <AiFillHtml5 className={styles.stackIcon} />
-              <DiCss3 className={styles.stackIcon} />
-              <SiJavascript className={styles.stackIcon} />
-              <FaReact className={styles.stackIcon} />
-              <SiNextdotjs className={styles.stackIcon} />
-              <SiTailwindcss className={styles.stackIcon} />
+
+              <div className={styles.stackIconsFirstRow}>
+                <AiFillHtml5 className={styles.stackIcon} />
+                <DiCss3 className={styles.stackIcon} />
+                <SiJavascript className={styles.stackIcon} />
+                <FaReact className={styles.stackIcon} />
+                <SiNextdotjs className={styles.stackIcon} />
+                <SiTailwindcss className={styles.stackIcon} />
+
+              </div>
+
+              <div className={styles.stackIconsSecondRow}>
+              
               <BsFillBootstrapFill className={styles.stackIcon} />
               <BsWordpress className={styles.stackIcon} />
               <SiElementor className={styles.stackIcon} />
               <FaGithub className={styles.stackIcon} />
               <BsGit className={styles.stackIcon} />
               <SiVite className={styles.stackIcon}/>
+
+              </div>
+
             </div>
+            
         </section>
 
         <section className={`${styles.stackWithTextSection}`}>
@@ -133,8 +143,8 @@ export default function Home() {
 
 
         <section className={`${styles.contactSection}`} id="#contact">
-        <SecondaryTitle
-          title="CONTACT" />
+          <h2 className={styles.secondaryTitleContact}>CONTACT</h2>
+       
 
             <div className={styles.contactIconsDiv}>
 

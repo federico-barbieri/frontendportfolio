@@ -1,4 +1,3 @@
-import SecondaryTitle from '@/components/SecondaryTitle/SecondaryTitle'
 import React from 'react'
 import styles from "./About.module.css"
 import Link from 'next/link';
@@ -17,13 +16,14 @@ function About() {
   return (
     <main className={styles.main}>
 
-        <section className={styles.contactSection}>
-        <SecondaryTitle
-          title="ABOUT" />
+        <section className={styles.aboutSection}>
+
+          <h2 className={styles.secondaryTitleAbout}>ABOUT</h2>
+     
           </section>
 
 
-        <section className={styles.stackWithTextSection}>
+        <section className={styles.aboutWithTextSection}>
           
           <p>
             I'm enrolled in Multimedia Design @ KEA and currently in my 3rd semester, focusing on Frontend Design. <br/> <br/>
@@ -38,8 +38,8 @@ function About() {
         </section>
 
     <section className={styles.contactSection}>
-        <SecondaryTitle
-          title="CONTACT" />
+      <h2 className={styles.secondaryTitleContact}>CONTACT</h2>
+     
 
             <div className={styles.contactIconsDiv}>
 

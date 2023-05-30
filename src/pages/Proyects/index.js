@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from "./Proyects.module.css"
-import SecondaryTitle from '@/components/SecondaryTitle/SecondaryTitle'
 import {FaReact} from "react-icons/fa"
 import {SiNextdotjs} from "react-icons/si"
 import {AiFillHtml5} from "react-icons/ai"
@@ -46,12 +45,28 @@ function Projects() {
 
       <section className={`${styles.heroSection}`}>
 
-        <SecondaryTitle title="PROJECTS"/>
+        <h2 className={styles.secondaryTitleProject}>PROJECTS</h2>
+
         
         
       </section>
 
       <section className={styles.projectsSection}>
+
+      <ProyectCard
+      image={"/projectImgs/shrek.jpg"}
+      title="SwampFest"
+      tech1={<FaReact/>}
+      tech2={<SiNextdotjs/>}
+      tech3={<SiSupabase/>}
+      description="The biggest festival in the world is about to begin and you can be a part of it.
+      Get your tickets and enjoy everything Shrek-related. We have 5 different camping areas, a massive line up, 
+      and more, so all you need to worry about is enjoying. Getting Shrek fever? Wait no more. 
+      (Made in collaboration with Sabrina Sørensen)"
+      github="https://github.com/raptorp/foofest"
+      website="https://swampfest.vercel.app/"
+      linkToExtensiveProject="../Edc"
+      />
 
       <ProyectCard
       image={"/projectImgs/bgr1.jpg"}
@@ -65,25 +80,7 @@ function Projects() {
       github="https://github.com/federico-barbieri/charlie-tango-case"
       website="https://charlie-tango-case-taupe.vercel.app/"
       linkToExtensiveProject="../Edc"
-      />
-
-      {/*
-
-    <ProyectCard
-      image={"/projectImgs/shrek.jpg"}
-      title="SwampFest"
-      tech1={<FaReact/>}
-      tech2={<SiNextdotjs/>}
-      tech3={<SiSupabase/>}
-      description="Final project made at KEA as part of the 3rd semester in Frontend Design. 
-      Ideation and creation of a fake festival inspired by the Shrek movies. Made in colaboration
-      with Sabrina Sørensen."
-      github="https://github.com/federico-barbieri/charlie-tango-case"
-      website="https://charlie-tango-case-taupe.vercel.app/"
-      linkToExtensiveProject="../Edc"
-      />
-
-      */}
+      />      
 
     <ProyectCard
         id="#magic"
@@ -149,8 +146,9 @@ function Projects() {
 
 
       <section className={`${styles.contactSection}`}>
-      <SecondaryTitle
-        title="CONTACT" />
+
+        <h2 className={styles.secondaryTitleContact}>CONTACT</h2>
+     
 
         <div className={styles.contactIconsDiv}>
 

@@ -1,4 +1,3 @@
-import SecondaryTitle from '@/components/SecondaryTitle/SecondaryTitle'
 import React from 'react'
 import styles from "./Contact.module.css"
 import Link from 'next/link';
@@ -17,8 +16,9 @@ function Contact() {
   return (
     <main className={styles.main}>
     <section className={styles.contactSection}>
-        <SecondaryTitle
-          title="CONTACT" />
+
+      <h2 className={styles.secondaryTitleContact}>CONTACT</h2>
+       
 
             <div className={styles.contactIconsDiv}>
 
