@@ -1,0 +1,121 @@
+/* CONTACT SECTION */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6rem;
+    min-height: 100vh;
+    background-color: var(--background-color); 
+    color: var(--primary-color);
+}
+
+
+/* STACK SECTION */
+
+.stackSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .stackIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  
+  .stackIcon{
+    transform: scale(5);
+    transition: all 0.5s ease-in
+  }
+  
+  .stackIcon:hover{
+    transform: scale(7);
+    cursor: pointer;
+  }
+  
+  .stackWithTextSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .stackWithTextSection > p{
+    max-width: 70ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  
+  .internship{
+    font-weight: 700;
+  }
+  
+  .reallyGood{
+    font-weight: 600;
+  }
+
+
+
+
+.contactWithTextSection{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+}
+
+.contactWithTextSection > p{
+  max-width: 50ch;
+  padding: 1rem;
+  border-radius: 10px;
+  line-height: 1.5;
+  margin-left: 10rem;
+  text-align: left;
+  font-size: 1.2rem;
+
+}
+
+.contactSection{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.contactIconsDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.contactIcon{
+  transform: scale(5);
+}

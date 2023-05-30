@@ -9,3 +9,26 @@
 .secondaryTitle:hover{
     cursor:default;
 }
+
+@media only screen and (max-width: 1000px){
+    .secondaryTitle{
+        font-size: 25rem;
+        transform: translateX(-5rem);
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    .secondaryTitle{
+        font-size: 20rem;
+        transform: translateX(-6rem);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .secondaryTitle{
+        font-size: 15rem;
+        transform: translateX(-6rem), rotateZ(50deg);
+
+    }
+}

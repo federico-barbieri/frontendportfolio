@@ -17,7 +17,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-color: var(--background-color);
+  background-color: var(--background-color); 
   color: var(--primary-color);
 }
 
@@ -33,16 +33,17 @@
   padding: 1rem;
 }
 
-/* ABOUT SECTION */
+/* PROJECTS SECTION */
 
-.aboutWithTextSection{
+.projectsSection{
   width: 100vw;
-  height: 80vh;
+  height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   padding: 1rem;
+  gap: 2rem;
 }
 
 .aboutWithTextSection > p{
@@ -126,15 +127,7 @@
 /* PROJECTS SECTION */
 
 
-.projectsSection{
-  width: 100vw;
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
+
 
 .projectIcons{
   display: flex;
@@ -164,17 +157,18 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 1rem;
 }
 
 .contactWithTextSection > p{
-  max-width: 43ch;
+  max-width: 70ch;
   padding: 1rem;
   border-radius: 10px;
   line-height: 1.5;
   margin-left: 10rem;
   text-align: left;
+  font-size: 1.3rem;
 }
 
 .contactSection{
@@ -185,6 +179,7 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .contactIconsDiv{

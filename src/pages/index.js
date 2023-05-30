@@ -24,6 +24,10 @@ import {BsMagic} from "react-icons/bs"
 import {BsFillVinylFill} from "react-icons/bs"
 import {BsFillBuildingFill} from "react-icons/bs"
 import {GiDonkey} from "react-icons/gi"
+import {GiPlasticDuck} from "react-icons/gi"
+import {SiVite} from "react-icons/si"
+
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -86,6 +90,7 @@ export default function Home() {
               <SiElementor className={styles.stackIcon} />
               <FaGithub className={styles.stackIcon} />
               <BsGit className={styles.stackIcon} />
+              <SiVite className={styles.stackIcon}/>
             </div>
         </section>
 
@@ -96,9 +101,14 @@ export default function Home() {
 
             As part of my education, I'm on the lookout for  <span className={styles.internship}>a 10-week internship between August and October.</span> <br/> <br/>
 
-            The main focus of my internship is to become <span className={styles.reallyGood}>really good</span> with technologies like React and Next JS or similar. 
+            The main focus of my internship is to become <span className={styles.reallyGood}>really good</span> with technologies like React and Next JS or similar. <br/> <br/>
+
+            Let's get in touch and start something memorable together.
+
           </p>
         </section>
+
+        {/*
 
         <section className={`${styles.projectsSection}`}>
             <SecondaryTitle
@@ -106,28 +116,23 @@ export default function Home() {
 
             <div className={styles.projectIcons}>
 
-
+                <Link href="/Proyects/#magic">
                   <BsFillBuildingFill className={styles.projectIcon} />
-                  <GiDonkey className={styles.projectIcon} />
+                </Link>
+                  <GiDonkey className={styles.projectIcon} /> 
                   <BsMagic className={styles.projectIcon}/>
                   <GiGuitar className={styles.projectIcon}/>
-                  <BiFootball className={styles.projectIcon}/>
-                  <BsFillVinylFill className={styles.projectIcon}/>
+                 <BiFootball className={styles.projectIcon}/> 
+                  <GiPlasticDuck className={styles.projectIcon}/>
             
             </div>
 
         </section>
 
-
-        <section className={`${styles.contactWithTextSection}`}>
-          
-          <p>
-            Let's get in touch and start something memorable together.<br/> <br/>
-          </p>
-        </section>
+        */}
 
 
-        <section className={`${styles.contactSection}`}>
+        <section className={`${styles.contactSection}`} id="#contact">
         <SecondaryTitle
           title="CONTACT" />
 
@@ -148,6 +153,9 @@ export default function Home() {
 
           
         </section>
+
+
+       
       </main>
     </>
   )

@@ -8,16 +8,22 @@ function Layout({children}) {
     <nav className={styles.nav}>
 
             <Link href="/">
-            <span><span className={styles.federico}>FEDERICO</span> BARBIERI</span>
+            <span className={styles.fullName}><span className={styles.federico}>FEDERICO</span> BARBIERI</span>
             </Link>
         
             <ul className={styles.ul}>
 
-            <Link href="/Proyects">
+            <Link href="/Proyects" className={styles.ulLink}>
               <li>PROJECTS</li>
             </Link>
+
+            <Link href="/About" className={styles.ulLink}>
             <li>ABOUT</li>
+            </Link>
+
+            <Link href="/Contact" className={styles.ulLink}>
             <li>CONTACT</li>
+            </Link>
         </ul>
     </nav>
     <main>{children}</main>

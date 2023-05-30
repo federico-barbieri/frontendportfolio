@@ -4,3 +4,32 @@
     font-size: 12rem;
     text-align: center;
 }
+
+@media only screen and (max-width: 1300px){
+    .mainTitle{
+        margin-top: 10rem;
+        font-size: 10rem;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    .mainTitle{
+        margin-top: 10rem;
+        font-size: 8rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .mainTitle{
+        margin-top: 10rem;
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .mainTitle{
+        margin-top: 10rem;
+        font-size: 4rem;
+    }
+}

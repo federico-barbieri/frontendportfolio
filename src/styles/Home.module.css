@@ -46,11 +46,12 @@
 }
 
 .aboutWithTextSection > p{
-  max-width: 43ch;
+  max-width: 50ch;
   padding: 1rem;
   border-radius: 10px;
   line-height: 1.5;
   margin-left: 10rem;
+  font-size: 1.2rem;
 }
 
 .maze{
@@ -61,6 +62,52 @@
   font-weight: 700;
 }
 
+@media only screen and (max-width: 1060px){
+
+  .aboutWithTextSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin-top: 5rem;
+  }
+
+  .aboutWithTextSection > p{
+    max-width: 50ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin: 5rem auto 5rem 5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 800px){
+
+  .aboutWithTextSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin-top: 5rem;
+  }
+
+  .aboutWithTextSection > p{
+    max-width: 50ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin: 5rem auto 5rem 0rem;
+    font-size: 1.2rem;
+  }
+}
+
 
 
 /* STACK SECTION */
@@ -69,7 +116,7 @@
   width: 100vw;
   height: 80vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1rem;
@@ -80,9 +127,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
   height: auto;
-  flex-wrap: wrap;
 }
 
 .stackIcon{
@@ -106,12 +152,13 @@
 }
 
 .stackWithTextSection > p{
-  max-width: 43ch;
+  max-width: 50ch;
   padding: 1rem;
   border-radius: 10px;
   line-height: 1.5;
   margin-right: 10rem;
   text-align: right;
+  font-size: 1.2rem;
 }
 
 .internship{
@@ -120,6 +167,173 @@
 
 .reallyGood{
   font-weight: 600;
+}
+
+@media only screen and (max-width: 1000px){
+  .stackSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .stackIcons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    place-content: center;
+    align-items: center;
+    align-content: center;
+
+  }
+  
+  .stackIcon{
+    transform: scale(4);
+    transition: all 0.5s ease-in
+  }
+  
+  .stackIcon:hover{
+    transform: scale(6);
+    cursor: pointer;
+  }
+  
+  .stackWithTextSection{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  .stackWithTextSection > p{
+    max-width: 50ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-right: 0rem;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+}
+
+@media only screen and (max-width: 700px){
+  .stackSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .stackIcons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 80vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stackIcon{
+    transform: scale(3);
+    transition: all 0.5s ease-in
+  }
+  
+  .stackIcon:hover{
+    transform: scale(5);
+    cursor: pointer;
+  }
+  
+  .stackWithTextSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+  }
+  
+  .stackWithTextSection > p{
+    max-width: 50ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-right: 10rem;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 500px){
+  .stackSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  
+  .stackIcons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 50vh;
+    margin: 0 auto 1rem auto;
+    border: 1px solid red;
+  }
+  
+  .stackIcon{
+    transform: scale(2);
+    transition: all 0.5s ease-in
+  }
+  
+  .stackIcon:hover{
+    transform: scale(3);
+    cursor: pointer;
+  }
+  
+  .stackWithTextSection{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .stackWithTextSection > p{
+    max-width: 50ch;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.5;
+    margin-right: 0;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+
 }
 
 
@@ -169,12 +383,14 @@
 }
 
 .contactWithTextSection > p{
-  max-width: 43ch;
+  max-width: 50ch;
   padding: 1rem;
   border-radius: 10px;
   line-height: 1.5;
   margin-left: 10rem;
   text-align: left;
+  font-size: 1.2rem;
+
 }
 
 .contactSection{
