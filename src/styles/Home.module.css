@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 100vh;
+  height: auto;
   background-color: var(--background-color);
   color: var(--primary-color);
   overflow: hidden;
