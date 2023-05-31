@@ -75,7 +75,7 @@ export default function Home() {
       
 
         <section className={`${styles.stackSection}`}>
-          <h2 className={styles.secondaryTitleStack}>STACK</h2>
+          <h2 className={styles.secondaryTitleStack}>STACK</h2> 
        
             <div className={styles.stackIcons}>
 
@@ -118,32 +118,11 @@ export default function Home() {
           </p>
         </section>
 
-        {/*
-
-        <section className={`${styles.projectsSection}`}>
-            <SecondaryTitle
-            title="PROJECTS" />
-
-            <div className={styles.projectIcons}>
-
-                <Link href="/Proyects/#magic">
-                  <BsFillBuildingFill className={styles.projectIcon} />
-                </Link>
-                  <GiDonkey className={styles.projectIcon} /> 
-                  <BsMagic className={styles.projectIcon}/>
-                  <GiGuitar className={styles.projectIcon}/>
-                 <BiFootball className={styles.projectIcon}/> 
-                  <GiPlasticDuck className={styles.projectIcon}/>
-            
-            </div>
-
-        </section>
-
-        */}
+     
 
 
         <section className={`${styles.contactSection}`} id="#contact">
-          <h2 className={styles.secondaryTitleContact}>CONTACT</h2>
+          <h2 className={styles.secondaryTitleContact}>CONTACT</h2> 
        
 
             <div className={styles.contactIconsDiv}>
