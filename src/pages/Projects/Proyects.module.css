@@ -45,6 +45,12 @@
   gap: 2rem;
 }
 
+@media only screen and (max-width: 1000px){
+  .projectsSection{
+    gap: 4rem;
+  }
+}
+
 .secondaryTitleProject{
   font-family: "ohm-bold", sans-serif;
   font-weight: 700;
