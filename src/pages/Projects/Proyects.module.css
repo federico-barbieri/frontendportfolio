@@ -42,14 +42,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 1rem;
   gap: 2rem;
 }
 
 .secondaryTitleProject{
   font-family: "ohm-bold", sans-serif;
   font-weight: 700;
-  font-size: 30rem;
+  font-size: 20rem;
   opacity: 0.1;
   position: absolute;
 }
@@ -127,12 +126,52 @@
   
 }
 
+@media only screen and (max-width: 350px){
+ 
+  
+  .secondaryTitleProject{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  
+}
 
-/* CONTACT SECTION */
+/* CONTACT WITH TEXT */
 
 .contactWithTextSection{
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1000px){
+  .contactWithTextSection > p{
+   max-width: 80%;
+    font-size: 1.5rem;
+  }
+}
+
+.internship{
+  font-weight: 800;
+}
+
+.reallyGood{
+  font-weight: 800;
+}
+
+/* CONTACT SECTION */
+
+.contactSection{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -140,37 +179,17 @@
   padding: 1rem;
 }
 
+
 .secondaryTitleContact{
   font-family: "ohm-bold", sans-serif;
   font-weight: 700;
-  font-size: 35rem;
+  font-size: 20rem;
   opacity: 0.1;
   position: absolute;
 }
 
 .secondaryTitleContact:hover{
-  cursor:default;
-}
-
-.contactWithTextSection > p{
-  max-width: 70ch;
-  padding: 1rem;
-  border-radius: 10px;
-  line-height: 1.5;
-  margin-left: 10rem;
-  text-align: left;
-  font-size: 1.3rem;
-}
-
-.contactSection{
-  width: 100vw;
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  font-family: "Roboto", sans-serif;
+  cursor: default;
 }
 
 .contactIconsDiv{
@@ -187,71 +206,7 @@
   transform: scale(5);
 }
 
-@media only screen and (max-width: 1300px){
-  .contactWithTextSection{
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  }
-  
-  .secondaryTitleContact{
-    font-family: "ohm-bold", sans-serif;
-    font-weight: 700;
-    font-size: 20rem;
-    opacity: 0.1;
-    position: absolute;
-  }
-  
-  .contactWithTextSection > p{
-    max-width: 70ch;
-    padding: 1rem;
-    border-radius: 10px;
-    line-height: 1.5;
-    margin-left: 0rem;
-    text-align: left;
-    font-size: 1.3rem;
-  }
-  
-  .contactSection{
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .contactIconsDiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-    height: auto;
-    flex-wrap: wrap;
-  }
-  
-  .contactIcon{
-    transform: scale(4);
-  }
-}
-
-@media only screen and (max-width: 1000px){
-  .contactWithTextSection{
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  }
+@media only screen and (max-width: 1200px){
   
   .secondaryTitleContact{
     font-family: "ohm-bold", sans-serif;
@@ -260,126 +215,13 @@
     opacity: 0.1;
     position: absolute;
   }
-  
-  .contactWithTextSection > p{
-    max-width: 70ch;
-    padding: 1rem;
-    border-radius: 10px;
-    line-height: 1.5;
-    margin-left: 0rem;
-    text-align: left;
-    font-size: 1.3rem;
-  }
-  
-  .contactSection{
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .contactIconsDiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-    height: auto;
-    flex-wrap: wrap;
-  }
-  
   .contactIcon{
-    transform: scale(3);
+    transform: scale(4);
   }
+
 }
 
-@media only screen and (max-width: 800px){
-  .contactWithTextSection{
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  }
-  
-  .secondaryTitleContact{
-    font-family: "ohm-bold", sans-serif;
-    font-weight: 700;
-    font-size: 10rem;
-    opacity: 0.1;
-    position: absolute;
-  }
-  
-  .contactWithTextSection > p{
-    max-width: 70ch;
-    padding: 1rem;
-    border-radius: 10px;
-    line-height: 1.5;
-    margin-left: 0rem;
-    text-align: left;
-    font-size: 1.3rem;
-  }
-  
-  .contactSection{
-    width: 100vw;
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .contactIconsDiv{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 50%;
-    height: auto;
-    flex-wrap: wrap;
-  }
-  
-  .contactIcon{
-    transform: scale(3);
-  }
-}
-
-@media only screen and (max-width: 500px){
-  .contactWithTextSection{
-    width: 100vw;
-    height: 60vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  }
-  
-  .secondaryTitleContact{
-    font-family: "ohm-bold", sans-serif;
-    font-weight: 700;
-    font-size: 5rem;
-    opacity: 0.1;
-    position: absolute;
-  }
-  
-  .contactWithTextSection > p{
-    max-width: 70ch;
-    padding: 1rem;
-    border-radius: 10px;
-    line-height: 1.5;
-    margin-left: 0rem;
-    text-align: left;
-    font-size: 1rem;  }
-  
+@media only screen and (max-width: 1000px){
   .contactSection{
     width: 100vw;
     height: 70vh;
@@ -388,19 +230,103 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    font-family: "Roboto", sans-serif;
   }
-  
-  .contactIconsDiv{
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 12rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  .contactIcon{
+    transform: scale(4);
+  }
+
+}
+
+@media only screen and (max-width: 700px){
+  .contactSection{
+    width: 100vw;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    width: 50%;
-    height: auto;
-    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
   }
-  
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 10rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  .contactIcon{
+    transform: scale(3);
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .contactSection{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 7rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  .contactIcon{
+    transform: scale(2);
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .contactSection{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    opacity: 0.1;
+    position: absolute;
+  }
+  .contactIcon{
+    transform: scale(2);
+  }
+}
+
+@media only screen and (max-width: 350px){
+  .contactSection{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .secondaryTitleContact{
+    font-family: "ohm-bold", sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    opacity: 0.1;
+    position: absolute;
+  }
   .contactIcon{
     transform: scale(1);
   }

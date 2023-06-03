@@ -31,20 +31,6 @@ function ProyectCard({id, image, title, tech1, tech2, tech3, description, github
                     <span className={styles.websiteLink}><em><HiOutlineExternalLink/> {title}</em></span>
                 </Link>
             </div>
-
-            {/*
-
-            <div className={styles.buttonDiv}>
-
-                    <Link href={linkToExtensiveProject}>
-            
-                         <button className={styles.projectBtn}>See project</button>
-
-                     </Link>
-
-            </div>
-
-            */}
             
         </div>
     </article>
