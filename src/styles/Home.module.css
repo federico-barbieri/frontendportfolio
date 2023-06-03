@@ -115,7 +115,7 @@
     border-radius: 10px;
     line-height: 1.5;
     margin-left: 0;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -136,7 +136,7 @@
     padding: 1rem;
     border-radius: 10px;
     line-height: 1.5;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -282,6 +282,13 @@
     font-size: 1.5rem;
   }
 
+}
+
+@media only screen and (max-width: 1000px){
+  .stackWithTextSection > p{
+    
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 850px){
