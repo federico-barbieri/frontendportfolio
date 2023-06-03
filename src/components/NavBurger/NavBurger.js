@@ -55,7 +55,7 @@ const NavBurger = () => {
             <li className={law.navItem}>
               <Link
                 className={law.menuItem}
-                href="/volunteer"
+                href="/Contact"
                 onClick={() => setNavOpen(!navOpen)}
                 style={{
                   top: navOpen ? "0" : "120px",
