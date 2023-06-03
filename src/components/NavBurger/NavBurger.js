@@ -19,7 +19,7 @@ const NavBurger = () => {
         <div className={law.navbar}>
           <div className={law.logo}>
             <Link className={law.logoTxt} href="/" onClick={handleLogoClick}>
-              <h1>FEDERICO BARBIERI</h1>
+              <h1>FEDERICO <span className={law.barbieri}>BARBIERI</span></h1>
             </Link>
           </div>
           <div className={law.menuToggle} onClick={() => setNavOpen(!navOpen)}>

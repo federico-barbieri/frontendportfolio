@@ -4,8 +4,19 @@
     font-size: 12rem;
     text-align: center;
     margin-top: 10rem;
-
+    color: var(--primary-color);
 }
+
+.mainTitle:hover{
+    cursor:default;
+}
+
+.notMazy{
+    font-family: "Roboto", sans-serif;
+    color: var(--neutral-color);
+}
+
+
 
 @media only screen and (max-width: 1300px){
     .mainTitle{
